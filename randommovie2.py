@@ -100,7 +100,7 @@ cont = "y"
 
 print("Hello user, I'm Yoda. Welcome to the bright side of the force!\n")
 
-usuario = input('Young Jedi, how may I call you?: ')
+usuario = input('Young person, how may I call you?: ')
 print("\n" + usuario + ", It's very nice to meet you. Let's get it started!\n")
 
 usuarioId = float(input("How old are you? "))
@@ -155,7 +155,7 @@ while cont == "y" or cont == "Y" or cont == "yes" or cont == "Yes" or cont == "Y
         "Y.Maybe another title would be better!?\nN.It's definitely a good one, thank you!\n(Y/N) ")
     if cont == "Y" or cont == "y" or cont == "yes" or cont == "Yes" or cont == "YES":
         {
-            print("Let's do it!")}
+            print("\nLet's do it!")}
         continue
     else:
         {print()}
