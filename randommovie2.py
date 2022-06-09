@@ -124,28 +124,28 @@ while cont == "y" or cont == "Y" or cont == "yes" or cont == "Yes" or cont == "Y
 
     if genero == "1" or genero == "horror" or genero == "Horror":
         {
-            print("\nI don't really like horror movies, but maybe you might like it.\n\n{}".format(random.choice(listat)))}
+            print("\nI don't really like horror movies, but I'm pretty sure this one's very good!\n\n{}".format(random.choice(listat)))}
     elif genero == "2" or genero == "comedy" or genero == "Comedy":
         {
-            print("\nI've had a lot of laughs throughout my life with comedy movies.\n\n{}".format(random.choice(listac)))}
+            print("\nI love comedy movies, I always have a lot of fun watching it!\n\n{}".format(random.choice(listac)))}
     elif genero == "3" or genero == "action" or genero == "Action":
         {
-            print('\nI love frantic action movies.\n\n{}'.format(random.choice(listaa)))}
+            print("\nThat's for sure a good choice, action movies are the best!\n\n{}".format(random.choice(listaa)))}
     elif genero == "4" or genero == "romance" or genero == "Romance":
         {
-            print('\nWatching this kind of movie I remember my old companion.\n\n{}'.format(random.choice(listar)))}
+            print('\nRomance movies always make me cry, but I like them!\n\n{}'.format(random.choice(listar)))}
     elif genero == "5" or genero == "drama" or genero == "Drama":
         {
-            print('\nI think this is a choice you might like.\n\n{}'.format(random.choice(listad)))}
+            print('\nDrama movies always make me cry, but I like them!!\n\n{}'.format(random.choice(listad)))}
     elif genero == "6" or genero == "adventure" or genero == "Adventure":
         {
-            print('\nI think we all like an adventure.\n\n{}'.format(random.choice(listaav)))}
+            print("\nDon't we all like an adventure movie?!\n\n{}".format(random.choice(listaav)))}
     elif genero == "7" or genero == "science fiction" or genero == "Science Fiction":
         {
-            print('\nThis is my favorite genre. I would like to participate in a movie.\n\n{}'.format(random.choice(listaf)))}
+            print("\nThat's awesome, I've always been a big fan of Sci-fi movies!\n\n{}".format(random.choice(listaf)))}
     elif genero == "8" or genero == "fantasy" or genero == "Fantasy":
         {
-            print('\nWhen I was a padawan I watched a lot of fantasy movies.\n\n{}'.format(random.choice(listafa)))}
+            print('\nFantasy movies are the best ones, you can travel to another world with them!\n\n{}'.format(random.choice(listafa)))}
     else:
         {
             print('\nInvalid option')}
